@@ -77,7 +77,6 @@ function beginMonitoring(phrase) {
       }
     });
     stream.on('error', (error, code) => {
-      process.exit(1);
       inStream.destroy();
       resetMonitoring();
       console.error(error);
