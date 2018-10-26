@@ -3,7 +3,6 @@ const request = require('request');
 const express = require('express');
 const bodyParser = require('body-parser');
 const Sentiment = require('sentiment');
-const nconf = require('nconf');
 require('dotenv').config();
 
 var stream=null;
