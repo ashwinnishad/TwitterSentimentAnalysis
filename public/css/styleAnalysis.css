@@ -1,0 +1,54 @@
+html {
+  background-color: #273c75
+}
+.container {
+  margin: 0 auto;
+}
+
+#result {
+text-align: center;
+margin-top: 30px;
+font-size: 30px;
+font-family: 'Rubik', sans-serif;
+color: white;
+}
+
+#tweets {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
+
+#myChart {
+  max-width: 50%;
+  max-height:100%;
+  overflow: auto;
+  padding-top: 50px;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#reset {
+  padding-bottom: 10px;
+  margin: 0 auto;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#reset:hover {
+  color: #26de81;
+}
