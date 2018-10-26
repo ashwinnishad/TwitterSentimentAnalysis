@@ -8,6 +8,7 @@ The application uses a sentiment analysis node package, along with a Twitter pac
 Front end is designed using Handlebars template engine along with CSS. Server side uses Node.js and Express.js. 
 
 Check it out [here](https://intense-everglades-10883.herokuapp.com)!
+![](appgif.gif)
 
 ## Issues
 The Twitter node package currently does not have a method to destroy a stream connection. This causes the application to crash when too many queries are submitted as Twitter has rate limiting for its stream API. You can read more about that [here](https://developer.twitter.com/en/docs/basics/rate-limiting.html). If the application does crash, wait a few minutes as Heroku will restart the application once it detects a crash. 
