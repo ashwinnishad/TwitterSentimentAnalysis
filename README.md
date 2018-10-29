@@ -1,4 +1,4 @@
-# TwitterSentimentAnalysis
+# Twitter Sentiment Analysis
 
 ## About
 This is a simple sentiment analysis model that processes a stream of tweets in order to establish an overall emotion based on user's input query.
